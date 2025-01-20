@@ -9,8 +9,10 @@ body:
   attributes:
     label: A-tu lu le wiki ?
     options:
-      - Oui
-      - Non
+      - label: Oui
+      - label: Non
+    validations:
+      required: true
 - type: textarea
   id: question
   attributes:
