@@ -11,11 +11,11 @@ body:
     options:
       - label: Oui
       - label: Non
-    validations:
-      required: true
+  validations:
+    required: true
 - type: textarea
   id: question
   attributes:
     label: Pose nous ta question.
-    validations:
-      required: true
+  validations:
+    required: true
