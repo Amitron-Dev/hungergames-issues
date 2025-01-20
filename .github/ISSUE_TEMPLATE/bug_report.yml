@@ -3,7 +3,7 @@ description: Formulaire de report de bug
 title: "[Bug]"
 labels: ["bug", "triage"]
 assignees:
-  - amitron-dev
+  - "amitron-dev"
 body:
   - type: markdown
     attributes:
