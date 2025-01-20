@@ -4,13 +4,13 @@ assignees: Amitron-Dev
 labels: "QUESTION"
 title: "[QUESTION] "
 body:
-- type: checkboxes
+- type: dropdown
   id: read
   attributes:
-    label: A-tu lu le wiki ?
+    label: Avez - vous lu le wiki ?
     options:
-      - label: Oui
-      - label: Non
+      - Oui
+      - Non
   validations:
     required: true
 - type: textarea
