@@ -1,0 +1,30 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de remplir se formulaire !
+  - type: textarea
+    id: why
+    attributes:
+      label: Que c est t-il passé ?
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: Avez - vous une version de launcher personnalisée ?
+      options:
+        - 1.0.2 (Non)
+        - 1.0.3 (Oui)
+      default: 0
+    validations:
+      required: false
