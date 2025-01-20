@@ -1,10 +1,9 @@
-name: Bug Report
-description: File a bug report.
+name: Report de bug
+description: Formulaire de report de bug
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
 assignees:
-  - octocat
+  - amitron-dev
 body:
   - type: markdown
     attributes:
@@ -14,7 +13,14 @@ body:
     id: why
     attributes:
       label: Que c est t-il passé ?
-      value: "A bug happened!"
+      value: "Explique ce qu'il c'est passé ?"
+    validations:
+      required: true
+  - type: textarea
+    id: devraissepassé
+    attributes:
+      label: Que devrais t-il se passé ?
+      value: "Explique se qu'il devrais se passé ?"
     validations:
       required: true
   - type: dropdown
@@ -23,8 +29,8 @@ body:
       label: Version
       description: Avez - vous une version de launcher personnalisée ?
       options:
-        - 1.0.2 (Non)
-        - 1.0.3 (Oui)
+        - Non
+        - Oui
       default: 0
     validations:
       required: false
