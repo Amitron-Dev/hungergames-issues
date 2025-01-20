@@ -1,6 +1,6 @@
 name: Report de bug
 description: Formulaire de report de bug
-title: "[Bug]: "
+title: "[Bug]"
 labels: ["bug", "triage"]
 assignees:
   - amitron-dev
