@@ -1,0 +1,19 @@
+name: Questions
+description: Pose nous une question sur le plugin.
+assignees: Amitron-Dev
+labels: "QUESTION"
+title: "[QUESTION] "
+body:
+- type: checkbox
+  id: read
+  attributes:
+    label: A-tu lu le wiki ?
+    options:
+      - Oui
+      - Non
+- type: textarea
+  id: question
+  attributes:
+    label: Pose nous ta question.
+    validations:
+      required: true
