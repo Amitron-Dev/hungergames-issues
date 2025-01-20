@@ -4,7 +4,7 @@ assignees: Amitron-Dev
 labels: "QUESTION"
 title: "[QUESTION] "
 body:
-- type: checkbox
+- type: checkboxes
   id: read
   attributes:
     label: A-tu lu le wiki ?
