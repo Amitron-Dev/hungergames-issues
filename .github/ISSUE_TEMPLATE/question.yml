@@ -1,7 +1,7 @@
 name: Questions
 description: Pose nous une question sur le plugin.
 assignees: Amitron-Dev
-labels: "QUESTION"
+labels: ["question"]
 title: "[QUESTION] "
 body:
 - type: dropdown
