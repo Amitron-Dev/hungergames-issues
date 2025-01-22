@@ -11,3 +11,8 @@
 
 Ici, vous pouvez accéder au **wiki** et au **issues** grace au menu ci dessus.
 ***
+
+### Prochains Ajouts
+* Commande /capitole pour se tp au capitole
+* Gestion automatique des games
+* Réinitialisation des mondes en fin de partie
