@@ -7,6 +7,7 @@
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Amitron-Dev/hungergames-issues?label=date%20pre-releases)
 ![GitHub (Pre-)Release Tag](https://img.shields.io/github/release-pre/Amitron-Dev/hungergames-issues?label=pre-release%20tag)
 
+Cliquez ici pour accedez au version : [Clique]([https://pages.github.com/](https://github.com/Amitron-Dev/hungergames-issues/releases))
 
 Ici, vous pouvez accéder au **wiki** et au **issues** grace au menu ci dessus.
 ***
