@@ -13,6 +13,9 @@ Ici, vous pouvez accéder au **wiki** et au **issues** grace au menu ci dessus.
 ***
 
 ### Prochains Ajouts
-* Commande /capitole pour se tp au capitole
-* Gestion automatique des games
-* Réinitialisation des mondes en fin de partie
+- [x] Commande /capitole pour se tp au capitole
+- [x] Gestion automatique des games
+- [ ] Déplacer le message "Merci de voter" dans la classe "Close_Inventory_Listeners.java" hors du timer
+- [ ] Reduire le timer dans "Close_Inventory_Listeners.java"
+- [ ] Supprimer la commande /game
+- [ ] Changer ls config, passer toute les locations dans un autre fichier
